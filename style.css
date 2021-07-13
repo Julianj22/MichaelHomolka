@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 1;
+  background-color: white;
+  color: black;
+}
+
+#link:link{
+  color:black;
+}
+
+#link:visited{
+  color: black;
+}
+
+#book{
+  clear:both;
+  justify-content: center;
+  display: none;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  /* font-family: Times New Roman; */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  /* font-weight: 100; */
+  font-size: 50px;
+  letter-spacing: -1px;
+  color: #000;
+  margin-bottom: 85px;
+  margin-top: 90px;
+}
+
+#intro1 {
+  width: 40%;
+  line-height: 35px;
+ font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 19px;
+  display: none;
+  margin-top: 50px;
+  /* text-align: justify; */
+  text-justify: inter-word;
+  
+}
+
+
+#intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bookIntro {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:-50px;
+}
+
+#intro img{
+    
+    width: 300px;
+    height: 300px;
+    
+  
+}
+
+#homePageImg{
+  animation: ease-out fadeIn 2s;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttons {
+  list-style-type: none;
+  
+  margin-top: 20px;
+ 
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  clear: both;
+  font-size: 30px;
+  
+  text-align: center;
+}
+
+.bott{
+  display: none;
+  text-align: center;
+}
+
+#nav li {
+  
+  font-size: 18px;
+  margin: 10px;
+  clear: both;
+  
+  
+}
+
+.bottom{
+  width:80;
+  margin-top: 50px;
+  
+}
+.mid{
+  width: 30%;
+  margin-top: 100px;
+}
+#top{
+  width: 50%;
+  margin-top: -50px;
+  animation: down 2s, fadeIn 2s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  
+  
+}
+
+#buy{
+  text-align: center;
+ font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 100;
+   font-size: 50px;
+  letter-spacing: -1px;
+  color: #000;
+  clear: both;
+  
+  
+}
+#buying{
+  display: none;
+  
+  margin-bottom: 100px;
+
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0, 0);
+   
+  }
+  100% {
+    transform: translateY(30px);
+    
+  }
+}
+
+li a {
+  display: block;
+  color: rgba(0, 0, 0, 0.74);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 5px;
+  clear: both;
+}
+
+li a:hover {
+  
+ 
+  
+
+
+background-image: repeating-linear-gradient(60deg, #d6d1d1, #d6d1d1 24px, transparent 24px, transparent 54px, #d6d1d1 54px), repeating-linear-gradient(150deg, #d6d1d1, #d6d1d1 24px, transparent 24px, transparent 54px, #d6d1d1 54px), repeating-linear-gradient(240deg, #d6d1d1, #d6d1d1 24px, transparent 24px, transparent 54px, #d6d1d1 54px), repeating-linear-gradient(330deg, #d6d1d1, #d6d1d1 24px, transparent 24px, transparent 54px, #d6d1d1 54px);
+background-size: 1px calc(100% + 108px), calc(100% + 108px) 1px, 1px calc(100% + 108px) , calc(100% + 108px) 1px;
+background-position: 0 0, 0 0, 100% 0, 0 100%;
+background-repeat: no-repeat;
+animation: borderAnimation 1.2s infinite linear;
+}
+
+@keyframes borderAnimation {
+from { background-position: 0 0, -108px 0, 100% -108px, 0 100%; }
+to { background-position: 0 -108px, 0 0, 100% 0, -108px 100%; }
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 120px;
+  
+}
+
+.galleryy{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 170px;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 120px;
+  
+}
+
+.poemContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid{
+  display: none;
+  padding: 20px;
+  
+}
+
+.grid1{
+  /* display: none; */
+  padding: 20px;
+  margin-top: -150px;
+}
+
+.grid2{
+  /* display: none; */
+  padding: 20px;
+  margin-top: -150px;
+}
+
+img{
+  height:200px;
+  width: 200px;
+  object-fit: cover;
+  clear: both;
+}
+
+.quote{
+   
+  font-style: italic;
+  font-weight: 1;
+  font-size: 22px;
+  
+  margin: 50px;
+  padding: 25px;
+  border-left: .1px rgba(0, 0, 0, 0.74) solid;
+  margin-bottom: 150px;
+}
+
+
+
+.quotes{
+  margin-top: 100px;
+  color: rgba(0, 0, 0, 0.74);
+   
+}
+.q1{
+  float: left;
+  display: none;
+  width: 50%;
+}
+
+.q2{
+  float: right;
+  margin-top: 50px;
+  display: none;
+  width: 50%;
+  
+}
+
+.poems{
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.74);
+  text-align: center;
+}
+
+#contacts{
+  text-align: center;
+  font-size: 22px;
+  margin-top:30px;
+  display: none;
+  font-family: 'EB Garamond', serif;
+}
+
+#q3{
+  float: left;
+  display: none;
+  margin-top: 50px;
+  width: 50%;
+}
+
+
+
+#anti{
+
+ 
+  animation: down 2s, fadeIn 2s;
+  
+}
+
+#intro2{
+  
+  width: 40%;
+  line-height: 35px;
+ font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 21px;
+  margin: auto;
+  
+  /* text-align: justify; */
+  text-justify: inter-word;
+}
+
+#poetry{
+  margin-bottom: 100px;
+  font-family: 'EB Garamond', serif;
+}
+
+.bot{
+  display: none;
+  clear: both;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#buyImg{
+  /* clear: both; */
+  object-fit: contain;
+
+  height: 400px;
+  
+ margin-left: auto;
+  /* margin-right: auto; */ 
+  /* width: 100%; */
+  /* margin-top: 70px;
+  margin-bottom: 40px; */
+}
+
+#p1{
+  display: none;
+}
+
+#p2{
+  display: none;
+}
+
+#p3{
+  display: none;
+}
+
+#p4{
+  display: none;
+}
+
+#p5{
+  display: none;
+}
+
+#p6{
+  display: none;
+}
+
+.row1{
+  display: none;
+}
+
+.row2{
+  display: none;
+}
+
+.bottt{
+  display:none;
+  text-align: center;
+  
+}
+
