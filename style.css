@@ -6,12 +6,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-
+html{
+  min-width: 1078px;
+  min-height: 1005;
+  
+  max-height: 1500px;
+  box-sizing:border-box;
+  margin:0;
+  
+  overflow-x: hidden;
+  
+}
 body {
   font-family: "Open Sans", sans-serif;
   margin: 1;
   background-color: white;
   color: black;
+  background-size: cover;
+  background-position: center center;
+   border: 1px solid transparent;
+}
+
+html, body
+{
+width: 100%;
+height: 100%;
 }
 
 #link:link{
@@ -77,6 +96,7 @@ h1 {
 
 #homePageImg{
   animation: ease-out fadeIn 2s;
+  margin: 50px;
 }
 
 #nav {
@@ -335,6 +355,8 @@ img{
   clear: both;
   margin-top: 50px;
   text-align: center;
+  overflow-y:hidden;
+  
 }
 
 #buyImg{
@@ -388,3 +410,15 @@ img{
   
 }
 
+/* @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* #nav, #intro, h1, .bot{
+    width: 100%;
+    height: 400px !important;
+  }
+} */ 
+
+@-ms-viewport{
+  width: device-width;
+  height: device-height;
+}
