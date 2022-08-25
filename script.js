@@ -20,5 +20,6 @@ $(".row1").delay(1500).fadeIn(500);
 $("#p4").delay(2000).fadeIn(500);
 $("#p5").delay(2500).fadeIn(500);
 $("#p6").delay(3000).fadeIn(500);
-$(".row2").delay(3000).fadeIn(500);
-$(".bottt").delay(3000).fadeIn(1000);
+$("#p7").delay(3500).fadeIn(500)
+$(".row2").delay(3500).fadeIn(500);
+$(".bottt").delay(3500).fadeIn(1000);
